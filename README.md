@@ -4,6 +4,10 @@
 
 **Maintainer:** DanielMarius
 
+## What is Project Maya?
+
+[Project Maya](https://github.com/mw00/project-maya) is the open-source local AI runtime that this Manager controls. Maya runs supported AI models on your own computer and provides the inference engine, browser chat and monitoring pages, and an OpenAI- and Anthropic-compatible API. Maya Win-Manager is a separate native Windows application for managing a Maya installation; it is not the Maya engine itself.
+
 Maya Win-Manager is a native C++17, Win32 x64 desktop application for operating a Maya-XS installation on Windows. It recreates Maya’s management screens as native Windows UI and adds Windows controls. It does not embed Maya’s web app, WebView, Electron, or another browser runtime.
 
 ## Run
