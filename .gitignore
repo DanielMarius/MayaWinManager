@@ -1,0 +1,39 @@
+# Keep the previous live runtime local until its process exits.
+/native/
+/.codex-mem-win/
+/audit-artifacts/
+/audit-backups/
+/crash-fix-backups/
+/memory-gates/
+/native-backups/
+/win64/
+
+# Local compiler scratch and diagnostics.
+.build-*/
+build-*/
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tmp
+*.res
+/*.cpp
+/*.h
+/*.manifest
+/*.rc
+/*.vbs
+
+# Never commit credentials or signing material.
+.env
+.env.*
+credentials*
+secrets*
+config.local.json
+*.pfx
+*.p12
+*.key
+
+# Models/runtime data belong to Maya-XS, not this repository.
+models/
+*.gguf
+*.safetensors
